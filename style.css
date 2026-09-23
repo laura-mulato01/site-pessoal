@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap);
+body {
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    background-color: #f7f4d5;
+    color: #0a3323;
+}
+
+
+header {
+    background-color: #0a3323;
+    padding: 20px 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header h3 {
+    margin: 0;
+    color: #f7f4d5;
+    font-size: 40px;
+}
+
+
+
+header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #f7f4d5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+header a:hover {
+    color: #105666;
+}
+
+
+
+#inicio {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#inicio div {
+    max-width: 900px;
+}
+
+#inicio h1 {
+    font-size: 45px;
+    color: #0a3323;
+}
+
+#inicio h3 {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+
+#inicio img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 100%;
+    
+}
+
+
+
+#sobre {
+    background-color: #839958;
+    padding: 80px 10%;
+    display: flex;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#sobre h1 {
+    color: #0a3323;
+    font-size: 60px;
+
+}
+
+#sobre p {
+    max-width: 800px;
+    font-size: 25px;
+    line-height: 1.7;
+    color: #f7f4d5;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+
+
+.hobbies {
+    background-color: #0a3323;
+    padding: 80px 10%;
+    margin-top: 10px;
+}
+
+.hobbies img {
+     width: 400px;
+     height: 400px;
+     object-fit: cover;
+     margin: 20px 65px;
+     align-items: center;
+     border-radius: 100%;
+}
+
+.hobbies h1 {
+    color: #839958;
+    font-size: 60px;
+}
+
+.hobbies p {
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #f7f4d5;
+}
+
+.hobbies ul {
+     display: flex;
+     gap: 30px;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     color: #f7f4d5;
+     align-items: center;
+     font-size: 25px;
+     justify-content: center;
+     text-align: center
+}
+
+
+#conhecimentos {
+    background-color: #f7f4d5;
+    padding: 80px 10%;
+    display: flex;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#conhecimentos h1 {
+    color: #0a3323;
+    font-size: 60px;
+
+}
+
+#conhecimentos p {
+    color: #0a3323;
+    font-size: 23px;
+    margin-bottom: 60px;
+}
+
+#conhecimentos ul {
+    max-width: 800px;
+    font-size: 25px;
+    line-height: 1.7;
+    color: #0a3323;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 70px;
+}
